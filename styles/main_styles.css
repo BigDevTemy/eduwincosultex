@@ -353,6 +353,7 @@ section
 	display: inline-block;
 	margin-left: auto;
 	padding-right: 93px;
+	
 }
 .main_nav
 {
@@ -685,6 +686,8 @@ section
 	-ms-transform: translateY(30px);
 	-o-transform: translateY(30px);
 	transform: translateY(30px);
+	position: absolute;
+	z-index: 2;
 }
 .hero_slide_content h1
 {
@@ -780,7 +783,7 @@ section
 .hero_boxes_inner
 {
 	position: absolute;
-	top: -212px;
+	top: -112px;
 	left: 0;
 	width: 100%;
 }
@@ -791,6 +794,7 @@ section
 	background: #1a1a1a;
 	padding-left: 50px;
 	cursor: pointer;
+	border-radius: 5px;
 }
 .hero_box:hover
 {
@@ -801,6 +805,7 @@ section
 	width: 62px;
 	height: auto;
 	margin-top: -6px;
+	
 }
 .svg path
 {
@@ -923,13 +928,13 @@ section
 }
 .card-img-top
 {
-	border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .card-body
 {
 	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -986,8 +991,9 @@ section
 {
 	width: 67px;
 	height: 67px;
-	background: #ffb606;
+	background: #fff;
 	margin-left: auto;
+	display: none;
 }
 .course_price span
 {
@@ -1507,4 +1513,14 @@ input:last-of-type
 .footer_social .menu_social_item:last-child
 {
 	margin-right: 0px;
+}
+
+.overlay{
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 1;
+	
 }
