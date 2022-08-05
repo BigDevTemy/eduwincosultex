@@ -11,5 +11,7 @@
             "email": "wabloan@wabloan.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
 }
