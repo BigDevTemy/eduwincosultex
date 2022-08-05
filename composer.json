@@ -1,0 +1,15 @@
+{
+    "name": "vincent/eduwincosultex",
+    "autoload": {
+        "psr-4": {
+            "Vincent\\Eduwincosultex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wabloan",
+            "email": "wabloan@wabloan.com"
+        }
+    ],
+    "require": {}
+}
