@@ -265,6 +265,13 @@ section
 	padding: 0px !important;
 }
 
+.rowDiv{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	
+}
+
 /*********************************
 3. Header
 *********************************/
